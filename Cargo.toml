@@ -1,0 +1,16 @@
+[package]
+name = "fastq-split"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.4.18", features = ["derive"] }
+flate2 = "1.0.28"
+futures = "0.3.30"
+regex = "1.10.3"
+tar = "0.4.40"
+tokio = { version = "1.35.1", features = ["full"] }
+tokio-threadpool = "0.1.18"
+zip = "0.6.6"
